@@ -1,0 +1,41 @@
+{
+    "courses":[
+        { 
+            "id": 1, 
+            "title": "Electricity - Getting Started",
+            "sections": [
+                { 
+                    "id": 1, 
+                    "title": "Introduction",
+                    "modules": [
+                        { "id": 1, "title": "What is electricity?", "type": "file" },
+                        { "id": 2, "title": "How is electricity used?", "type": "quiz" }
+                    ]
+                },
+                { 
+                    "id": 2,
+                     "title": "Deep Dive",
+                     "modules": [
+                        { "id": 3, "title": "Electrons", "type": "html" },
+                        { "id": 4, "title": "Protons", "type": "html" }
+                    ]
+                }
+            ]
+        },
+        { 
+            "id": 2, 
+            "title": "Electricity - Intermediate",
+            "sections": []
+        }
+    ],
+    "users": [
+        { "id": 1, "name": "Charlie" },
+        { "id": 2, "name": "Ace" },
+        { "id": 3, "name": "Tina" }
+    ],
+    "enrollments":[
+        { "userid": 1, "courseid": 1, "state": "started", "section":1, "module": 1 },
+        { "userid": 2, "courseid": 1, "state": "started", "section":2, "module": 4 }
+    ]
+
+}
